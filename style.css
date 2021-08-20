@@ -1,0 +1,49 @@
+#title{
+	color: #1f3666;
+	text-align: center;
+}
+
+#main-text{
+	text-align: justify;
+}
+
+.menu{
+	width: 100%;
+	border: 2px solid #1f3666;
+	text-align: center;
+}
+
+.content{
+	border-collapse: collapse;
+	width: 45%;
+	text-align: left;
+}
+
+.first-row{
+ 	text-align: left;
+}
+
+.important{
+	font-weight: bold;
+}
+
+div{
+	margin: 50px;
+	text-align: center;
+}
+
+.list-title{
+	font-weight: bold;
+}
+
+@media (min-width: 600px) {
+	.page2title::before{
+		content: "Types of photography";
+	}
+}
+
+@media (max-width: 599px) {
+	.page2title::before{
+		content: "Types";
+	}
+}
